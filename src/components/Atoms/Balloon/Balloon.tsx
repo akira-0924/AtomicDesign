@@ -1,5 +1,5 @@
 import React, { ComponentPropsWithoutRef } from 'react';
-const styles = require('./styles.css');
+import styles from './styles.css'
 
 type BalloonProps = ComponentPropsWithoutRef<'span'>;
 
@@ -11,7 +11,7 @@ type Props = {
 const Balloon: React.FC<Props> = ({ children, className, ...props }) => {
   return (
     <>
-      <span className={className} {...props}>
+      <span className={["balloon", className].join(" ")} {...props}>
         {children}
       </span>
     </>

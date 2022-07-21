@@ -1,0 +1,19 @@
+.default{
+  color:black;
+}
+.info{
+  color:green;
+}
+.warning{
+  color:red;
+}
+.s{
+  font-size: .8rem;
+}
+.m{
+  font-size: 1rem;
+}
+.l{
+  font-size: 1.2rem;
+}
+

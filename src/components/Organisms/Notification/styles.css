@@ -1,0 +1,29 @@
+.root2{
+  display: flex;
+  padding: 1rem;
+  position: relative;
+  background-color: rgb(255, 158, 158);
+}
+.body{
+  flex:1;
+  min-width: 0;
+}
+
+.media{
+  padding-right: 1rem;
+}
+
+.time{
+  margin-top:.5rem;
+}
+.del{
+  /* display: none !important; */
+  position: absolute !important;
+  right:1.5rem !important;
+  top:20%;
+  transform: translate(-100%) !important;
+}
+
+.root:hover .del{
+  display: inline-block !important;
+}

@@ -1,0 +1,20 @@
+.root{
+  display: inline-block;
+  position:relative;
+}
+
+.root > *:first-child + *{
+  opacity: 0;
+  left:50%;
+  position: absolute;
+  top:0;
+  transform: translate(-50%,-100%) translateY(-12px);
+  white-space: nowrap;
+  transition:all ease .3s;
+}
+
+.root > *:first-child:hover + *{
+  display: inline-block;
+  opacity: 1;
+  transition:all ease .3s;
+}
